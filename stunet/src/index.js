@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import NotificationsParents from './pages/NotificationsParents';
+import MessagesParents from './pages/MessagesParent';
+import SuiviParents from './pages/SuiviParents';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import Accueill from './pages/accueil';
 import './styles/accueil.css'
@@ -25,9 +28,23 @@ const route = createBrowserRouter([
     element: <Home/>,
     children: [
       {
-        path: "gestionparent",
-        element: <Gestionparent/>
-      }
+        path: "/home/gestionparent",
+        element: <Gestionparent/>,
+        children: [
+          {
+            path: "/home/gestionparent/Notifications",
+            element: <NotificationsParents/>
+          },
+          {
+            path: "/home/gestionparent/Messages",
+            element: <MessagesParents/>
+          },
+          {
+            path: "/home/gestionparent/Assiduite",
+            element: <SuiviParents/>
+          }
+        ]
+      },
     ]
   }
 ])

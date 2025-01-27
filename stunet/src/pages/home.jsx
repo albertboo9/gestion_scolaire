@@ -116,7 +116,7 @@ function Onglet({classIcon,text,view,children,icoView}){
         <div className='center-side'>
           <div className='center-top'>
             <div className='notifs'> <Notification count={notifications.filter((n) => !n.isRead).length} notifications={notifications} /> </div>
-          
+  
           </div>
           <div className='center-center'>
             <Outlet/>

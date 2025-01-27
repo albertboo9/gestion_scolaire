@@ -102,12 +102,12 @@ function Onglet({classIcon,text,view,children,icoView}){
               <Onglet classIcon="bx bx-home" text="accueil" view={visible} >accueil</Onglet>
 
               <Onglet classIcon="bx bx-bell" text="notifications" view={visible}>notifications</Onglet>
-              <Onglet classIcon="bx bx-grid-alt" text="tontines" view={visible}>Mes tontines</Onglet>
-              <Onglet classIcon="bx bx-wallet" text="solde" view={visible}>Mon solde</Onglet> 
+              <Onglet classIcon="bx bx-grid-alt" text="tontines" view={visible}>Liste des élèves</Onglet>
+              <Onglet classIcon="bx bx-wallet" text="solde" view={visible}>Emploi de temps</Onglet> 
               <Onglet classIcon="bx bx-transfer-alt" text="transactions" view={visible}>Transactions</Onglet> 
               <Onglet classIcon="bx bx-cog" text="paramètres" view={visible}>parametre</Onglet>
-              <Onglet classIcon="bx bx-plus" text="creer" view={visible}> creer une tontine</Onglet>
-              <Onglet classIcon="bx bx-globe" text="rejoindre" view={visible}> rejoindre une tontine</Onglet>
+              <Onglet classIcon="bx bx-plus" text="creer" view={visible}> notifier un parent </Onglet>
+              <Onglet classIcon="bx bx-globe" text="rejoindre" view={visible}>ajouter un nouvel élève</Onglet>
               <div className="end">
                 <Onglet  classIcon="bx bx-door-open" text="deconnexion" view={visible}>Deconnexion</Onglet>
               </div>

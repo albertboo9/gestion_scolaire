@@ -13,7 +13,7 @@ const SuiviParents = () => {
     }, []);
   
     return (
-      <div>
+      <div className="suiviP">
         <h1>Assiduité de l'enfant</h1>
         <ul>
           {attendance.map((record) => (

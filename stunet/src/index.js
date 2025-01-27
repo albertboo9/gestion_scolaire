@@ -7,6 +7,7 @@ import Accueill from './pages/accueil';
 import './styles/accueil.css'
 import Home from './pages/home';
 import Login from './pages/Login';
+import Gestionparent from './pages/Gestionparent';
 import reportWebVitals from './reportWebVitals';
 
 
@@ -21,7 +22,13 @@ const route = createBrowserRouter([
   },
   {
     path: "/home",
-    element: <Home/>
+    element: <Home/>,
+    children: [
+      {
+        path: "gestionparent",
+        element: <Gestionparent/>
+      }
+    ]
   }
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));

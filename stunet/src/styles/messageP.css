@@ -1,0 +1,46 @@
+.messagerie{
+    display: flex;
+    flex-direction: column;
+}
+.manipulationmessage{
+    display: flex;
+    flex-direction: row;
+   column-gap: 40px;
+}
+.affichem{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+}
+.message{
+    width: 600px;
+    height: 60px;
+}
+ul strong{
+    color: #3a5ad9;
+}
+.envoiM{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+label{
+    font-size: 20px;
+}
+select{
+    height: 50px;
+    width: 150px;
+}
+textarea{
+    height: 100px;
+    border: 1px solid #3a5ad9;
+}
+button{
+    height: 50px;
+    background-color: #3a5ad9;
+    color: aliceblue;
+    border: 1px solid #3a5ad9;
+    border-radius: 10px;
+}

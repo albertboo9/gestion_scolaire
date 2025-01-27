@@ -1,0 +1,125 @@
+{
+  "notifications": [
+    {
+      "id": "1",
+      "title": "Réunion des parents",
+      "message": "Une réunion aura lieu le 30 janvier.",
+      "parentId": 1
+    },
+    {
+      "id": "2",
+      "title": "payements des frais d'examen",
+      "message": "Veuillez régler les frais de scolarité avant le 25 janvier.",
+      "parentId": 1
+    },
+    {
+      "id": "2",
+      "title": "Rappel de paiement",
+      "message": "Veuillez régler les frais de scolarité avant le 25 janvier.",
+      "parentId": 1
+    },
+    {
+      "id": "2",
+      "title": "payement deuxieme tranche",
+      "message": "Veuillez régler les frais de scolarité avant le 25 janvier.",
+      "parentId": 1
+    },
+    {
+      "id": "2",
+      "title": "Remise des bulettin",
+      "message": "Veuillez régler les frais de scolarité avant le 25 janvier.",
+      "parentId": 1
+    }
+  ],
+  "attendance": [
+    {
+      "id": "1",
+      "studentId": 1,
+      "date": "2025-01-20",
+      "status": "absent"
+    },
+    {
+      "id": "2",
+      "studentId": 1,
+      "date": "2025-01-21",
+      "status": "présent"
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "content": "Bonjour, je souhaite avoir des informations sur l'inscription.",
+      "sender": "parent",
+      "receiver": "administration",
+      "parentId": 1
+    },
+    {
+      "id": "2",
+      "content": "Votre demande a été prise en compte.",
+      "sender": "administration",
+      "receiver": "parent",
+      "parentId": 1
+    },
+    {
+      "id": "5f20",
+      "content": "hello",
+      "sender": "parent",
+      "receiver": "administration",
+      "parentId": 1
+    },
+    {
+      "id": "ff77",
+      "content": "",
+      "sender": "parent",
+      "receiver": "administration",
+      "parentId": 1
+    },
+    {
+      "id": "3",
+      "content": "Avez vous un soucis?.",
+      "sender": "administration",
+      "receiver": "parent",
+      "parentId": 1
+    },
+    {
+      "id": "54f6",
+      "content": "bonjour monsieur. L'en fant est malade raison pour laquelle ik sera absent en cours",
+      "sender": "parent",
+      "receiver": "enseignant",
+      "parentId": 1,
+      "timestamp": "2025-01-27T04:06:09.061Z"
+    },
+    {
+      "id": "d66d",
+      "content": "bonsoir monsieur\nQuelle est la date de la remise des bulletins",
+      "sender": "parent",
+      "receiver": "administration",
+      "parentId": 1,
+      "timestamp": "2025-01-27T04:23:46.048Z"
+    },
+    {
+      "id": "ea55",
+      "content": "",
+      "sender": "parent",
+      "receiver": "administration",
+      "parentId": 1,
+      "timestamp": "2025-01-27T04:45:45.808Z"
+    },
+    {
+      "id": "76e6",
+      "content": "merci pour l'enseigneme,t rendu",
+      "sender": "parent",
+      "receiver": "administration",
+      "parentId": 1,
+      "timestamp": "2025-01-27T04:48:44.421Z"
+    },
+    {
+      "id": "8863",
+      "content": "",
+      "sender": "parent",
+      "receiver": "administration",
+      "parentId": 1,
+      "timestamp": "2025-01-27T04:48:45.678Z"
+    }
+  ]
+}

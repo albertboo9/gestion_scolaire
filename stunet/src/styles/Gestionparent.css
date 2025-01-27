@@ -8,3 +8,9 @@
 .header{
     width: 20%;
 }
+.corp{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 10%;
+    align-items: center;  
+}
